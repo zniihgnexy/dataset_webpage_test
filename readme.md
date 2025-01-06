@@ -1,4 +1,4 @@
-# Large Datasets in 3D
+# Large Datasets in 3D <title updates in futuer>
 
 This repository contains a collection of large-scale, fine-grained 3D datasets using high-resolution images captured from various locations worldwide. These datasets support multiple applications, including reconstruction, localization, semantic segmentation, and virtual reality.
 
@@ -14,8 +14,10 @@ We provide datasets for iconic landmarks and cultural heritage sites, each metic
    ![Cambridge Campus](images/one_page.png)  
    High-resolution modeling of Cambridge University, ideal for urban planning and mixed-reality applications.
 
+   This specific dataset contains a Virtual Reality (VR) scene which is available for download and view in future.
+
 3. **[Egyptian Pyramids and Sphinx Dataset](https://skfb.ly/ptsFL)**  
-   ![Egyptian Pyramids](images/pyramids.png)  
+   ![Egyptian Pyramids](images/pyramid.png)  
    Captures intricate carvings and erosion patterns of these ancient structures.
 
 4. **[Louvre Museum Dataset](https://skfb.ly/ptsFM)**  
@@ -23,8 +25,10 @@ We provide datasets for iconic landmarks and cultural heritage sites, each metic
    Comprehensive exterior depiction of the Louvre Museum with ornate architectural details.
 
 5. **[Leaning Tower of Pisa Dataset](https://skfb.ly/ptsFN)**  
-   ![Leaning Tower of Pisa](images/italy.png)  
+   ![Leaning Tower of Pisa](images/Italy.png)  
    Detailed reconstruction focusing on the unique tilt and masonry of this historic structure.
+
+   This specific dataset contains a Virtual Reality (VR) scene which is available for download and view in future.
 
 6. **[Stonehenge Dataset](https://skfb.ly/ptsFP)**  
    ![Stonehenge](images/stonehenge.png)  
@@ -34,14 +38,18 @@ We provide datasets for iconic landmarks and cultural heritage sites, each metic
    ![Petra](images/petra.png)  
    Offers intricate details of natural stone formations and surrounding environments.
 
+   This specific dataset contains a Virtual Reality (VR) scene which is available for download and view in future.
+
 8. **[Trafalgar Square Dataset](https://skfb.ly/pt9rF)**  
-   ![Trafalgar Square](images/tragalgar.png)  
+   ![Trafalgar Square](images/trafalgar.png)  
    High-resolution models of statues and surrounding structures within Trafalgar Square.
 
 9. **[National Art Gallery Dataset](https://skfb.ly/pt9sF)**  
    ![National Art Gallery](images/gallery2.png)  
    ![National Art Gallery](images/gallery3.png)  
    Captures gallery interiors, including paintings, sculptures, and architectural features.
+
+   This specific dataset contains a Virtual Reality (VR) scene which is available for download and view in future.
 
 10. **[Forbidden City Dataset](https://skfb.ly/pt9sR)**  
     ![Forbidden City](images/gugong.png)  
@@ -50,6 +58,8 @@ We provide datasets for iconic landmarks and cultural heritage sites, each metic
 11. **[Longmen Grottoes Dataset](https://skfb.ly/pt9tr)**  
     ![Longmen Grottoes](images/longmen_all.png)  
     High-resolution carvings of the Longmen Grottoes, capturing natural weathering effects.
+
+    This specific dataset contains a Virtual Reality (VR) scene which is available for download and view in future.
 
 ---
 
