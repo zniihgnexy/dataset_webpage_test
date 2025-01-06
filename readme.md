@@ -11,43 +11,44 @@ We provide datasets for iconic landmarks and cultural heritage sites, each metic
    A detailed reconstruction of Buckingham Palace, emphasizing architectural elements like gates and sculptural decorations.
 
 2. **[Cambridge Campus Dataset](https://skfb.ly/ptsFK)**  
-   ![Cambridge Campus](images/Cambridge.png)  
+   ![Cambridge Campus](images/one_page.png)  
    High-resolution modeling of Cambridge University, ideal for urban planning and mixed-reality applications.
 
 3. **[Egyptian Pyramids and Sphinx Dataset](https://skfb.ly/ptsFL)**  
-   ![Egyptian Pyramids](images/Pyramids.png)  
+   ![Egyptian Pyramids](images/pyramids.png)  
    Captures intricate carvings and erosion patterns of these ancient structures.
 
 4. **[Louvre Museum Dataset](https://skfb.ly/ptsFM)**  
-   ![Louvre Museum](images/Louvre.png)  
+   ![Louvre Museum](images/louvre.png)  
    Comprehensive exterior depiction of the Louvre Museum with ornate architectural details.
 
 5. **[Leaning Tower of Pisa Dataset](https://skfb.ly/ptsFN)**  
-   ![Leaning Tower of Pisa](images/Pisa.png)  
+   ![Leaning Tower of Pisa](images/italy.png)  
    Detailed reconstruction focusing on the unique tilt and masonry of this historic structure.
 
 6. **[Stonehenge Dataset](https://skfb.ly/ptsFP)**  
-   ![Stonehenge](images/Stonehenge.png)  
+   ![Stonehenge](images/stonehenge.png)  
    Captures the iconic rocks with emphasis on spatial arrangement and structural details.
 
 7. **[Petra Dataset](https://skfb.ly/pt9ro)**  
-   ![Petra](images/Petra.png)  
+   ![Petra](images/petra.png)  
    Offers intricate details of natural stone formations and surrounding environments.
 
 8. **[Trafalgar Square Dataset](https://skfb.ly/pt9rF)**  
-   ![Trafalgar Square](images/Trafalgar.png)  
+   ![Trafalgar Square](images/tragalgar.png)  
    High-resolution models of statues and surrounding structures within Trafalgar Square.
 
 9. **[National Art Gallery Dataset](https://skfb.ly/pt9sF)**  
-   ![National Art Gallery](images/Gallery.png)  
+   ![National Art Gallery](images/gallery2.png)  
+   ![National Art Gallery](images/gallery3.png)  
    Captures gallery interiors, including paintings, sculptures, and architectural features.
 
 10. **[Forbidden City Dataset](https://skfb.ly/pt9sR)**  
-    ![Forbidden City](images/Forbidden.png)  
+    ![Forbidden City](images/gugong.png)  
     Detailed depiction of Chinese architectural heritage with intricate carvings and roof patterns.
 
 11. **[Longmen Grottoes Dataset](https://skfb.ly/pt9tr)**  
-    ![Longmen Grottoes](images/Longmen.png)  
+    ![Longmen Grottoes](images/longmen_all.png)  
     High-resolution carvings of the Longmen Grottoes, capturing natural weathering effects.
 
 ---
@@ -73,13 +74,3 @@ Reconstructed VR-ready 3D scenes with high-detail meshes and point clouds.
 - **Virtual Reality Integration**: Ready-to-use models for VR applications with high-resolution details.
 - **Cultural Preservation**: Enables digital preservation and restoration planning.
 - **Research and Training**: Supports training machine learning models for segmentation, reconstruction, and navigation.
-
----
-
-## Uploading Figures to GitHub
-
-1. Create an `images/` folder in your repository.
-2. Add all the figures (e.g., `Buckingham.png`, `Pyramids.png`) into this folder.
-3. Reference the images using the relative path in Markdown, like this:
-   ```markdown
-   ![Buckingham Palace](images/Buckingham.png)
