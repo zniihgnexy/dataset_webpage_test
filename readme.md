@@ -1,14 +1,85 @@
 # Large Datasets in 3D
 
-This repository contains links to 10 large datasets for 3D research and applications. Below are the datasets:
+This repository contains a collection of large-scale, fine-grained 3D datasets using high-resolution images captured from various locations worldwide. These datasets support multiple applications, including reconstruction, localization, semantic segmentation, and virtual reality.
 
-1. [Dataset Name 1](https://link-to-dataset1.com) - Short description of the dataset.
-2. [Dataset Name 2](https://link-to-dataset2.com) - Short description of the dataset.
-3. [Dataset Name 3](https://link-to-dataset3.com) - Short description of the dataset.
-4. [Dataset Name 4](https://link-to-dataset4.com) - Short description of the dataset.
-5. [Dataset Name 5](https://link-to-dataset5.com) - Short description of the dataset.
-6. [Dataset Name 6](https://link-to-dataset6.com) - Short description of the dataset.
-7. [Dataset Name 7](https://link-to-dataset7.com) - Short description of the dataset.
-8. [Dataset Name 8](https://link-to-dataset8.com) - Short description of the dataset.
-9. [Dataset Name 9](https://link-to-dataset9.com) - Short description of the dataset.
-10. [Dataset Name 10](https://link-to-dataset10.com) - Short description of the dataset.
+## Datasets Overview
+
+We provide datasets for iconic landmarks and cultural heritage sites, each meticulously captured to ensure high accuracy and detail. Below are the available datasets with access links:
+
+1. **[Buckingham Palace Dataset](https://skfb.ly/ptsFD)**  
+   ![Buckingham Palace](images/Buckingham.png)  
+   A detailed reconstruction of Buckingham Palace, emphasizing architectural elements like gates and sculptural decorations.
+
+2. **[Cambridge Campus Dataset](https://skfb.ly/ptsFK)**  
+   ![Cambridge Campus](images/Cambridge.png)  
+   High-resolution modeling of Cambridge University, ideal for urban planning and mixed-reality applications.
+
+3. **[Egyptian Pyramids and Sphinx Dataset](https://skfb.ly/ptsFL)**  
+   ![Egyptian Pyramids](images/Pyramids.png)  
+   Captures intricate carvings and erosion patterns of these ancient structures.
+
+4. **[Louvre Museum Dataset](https://skfb.ly/ptsFM)**  
+   ![Louvre Museum](images/Louvre.png)  
+   Comprehensive exterior depiction of the Louvre Museum with ornate architectural details.
+
+5. **[Leaning Tower of Pisa Dataset](https://skfb.ly/ptsFN)**  
+   ![Leaning Tower of Pisa](images/Pisa.png)  
+   Detailed reconstruction focusing on the unique tilt and masonry of this historic structure.
+
+6. **[Stonehenge Dataset](https://skfb.ly/ptsFP)**  
+   ![Stonehenge](images/Stonehenge.png)  
+   Captures the iconic rocks with emphasis on spatial arrangement and structural details.
+
+7. **[Petra Dataset](https://skfb.ly/pt9ro)**  
+   ![Petra](images/Petra.png)  
+   Offers intricate details of natural stone formations and surrounding environments.
+
+8. **[Trafalgar Square Dataset](https://skfb.ly/pt9rF)**  
+   ![Trafalgar Square](images/Trafalgar.png)  
+   High-resolution models of statues and surrounding structures within Trafalgar Square.
+
+9. **[National Art Gallery Dataset](https://skfb.ly/pt9sF)**  
+   ![National Art Gallery](images/Gallery.png)  
+   Captures gallery interiors, including paintings, sculptures, and architectural features.
+
+10. **[Forbidden City Dataset](https://skfb.ly/pt9sR)**  
+    ![Forbidden City](images/Forbidden.png)  
+    Detailed depiction of Chinese architectural heritage with intricate carvings and roof patterns.
+
+11. **[Longmen Grottoes Dataset](https://skfb.ly/pt9tr)**  
+    ![Longmen Grottoes](images/Longmen.png)  
+    High-resolution carvings of the Longmen Grottoes, capturing natural weathering effects.
+
+---
+
+## Dataset Format
+
+### Raw Data
+- **Images**: High-resolution JPEG images named as `<image_number>.jpg`.
+- **Point Cloud Data**: Dense and sparse point clouds in `.ply` and `.pcd` formats.
+
+### Processed Data
+- **COLMAP Outputs**: Includes reconstruction data in the COLMAP format.
+- **RealityCapture Projects**: Reconstruction results with features such as camera parameters, dense and sparse point clouds, undistorted images, and depth maps.
+- **Ground Truth**: TLS (Terrestrial Laser Scanning)-based high-accuracy reconstruction files.
+
+### Virtual Reality Files
+Reconstructed VR-ready 3D scenes with high-detail meshes and point clouds.
+
+---
+
+## Applications
+- **Reconstruction and Localization**: Benchmarks for SLAM, SfM, and radiance field-based methods like Neural Radiance Fields and Gaussian Splatting.
+- **Virtual Reality Integration**: Ready-to-use models for VR applications with high-resolution details.
+- **Cultural Preservation**: Enables digital preservation and restoration planning.
+- **Research and Training**: Supports training machine learning models for segmentation, reconstruction, and navigation.
+
+---
+
+## Uploading Figures to GitHub
+
+1. Create an `images/` folder in your repository.
+2. Add all the figures (e.g., `Buckingham.png`, `Pyramids.png`) into this folder.
+3. Reference the images using the relative path in Markdown, like this:
+   ```markdown
+   ![Buckingham Palace](images/Buckingham.png)
